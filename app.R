@@ -5,13 +5,14 @@
 # Find out more about building applications with Shiny here:
 #
 #    http://shiny.rstudio.com/
-#
+#Author: Abhijit Jaiswal
+#Date: 26th January 2018
 
 library(shiny)
 library(plotrix)
-matches = read.csv("/Users/abhijitj/Downloads/ipl1/innings1.csv")
+matches = read.csv("/Users/abhijitj/Downloads/ipl1/innings1.csv")  #Please replace this with actual path
 #m = read.csv("/Users/abhijitj/Downloads/ipl/matches.csv")
-m = read.csv("//Users/abhijitj/Downloads/ipl1/info2.csv")
+m = read.csv("//Users/abhijitj/Downloads/ipl1/info2.csv")   #Please replace this with actual path
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   titlePanel("IPL Historical Data"),
@@ -47,7 +48,7 @@ ui <- fluidPage(
   )
 # Define server logic required to draw a histogram
 server <- function(session, input, output) {
-  matches = read.csv("/Users/abhijitj/Downloads/ipl1/innings1.csv")
+  matches = read.csv("/Users/abhijitj/Downloads/ipl1/innings1.csv") #Please replace this with actual path
   #matches$
   observeEvent(input$select, updateSelectInput(session, "bowler", "Choose a bowler", 
                choices = unique(subset(matches, matches$match == input$select)$bowler)))
