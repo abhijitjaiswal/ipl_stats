@@ -1,3 +1,6 @@
+#Author: Abhijit Jaiswal
+# This script parses the yaml files and creates a master file innings1.csv for all ball by ball details for all the matches 
+
 import yaml
 import csv
 import glob
