@@ -1,3 +1,6 @@
+#Author: Abhijit Jaiswal
+#This file parses the information in deliveries.csv and forms batsman.csv and bowlers.csv
+
 import csv
 
 csv_file = "batsman.csv"
