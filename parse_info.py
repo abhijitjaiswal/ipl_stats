@@ -1,3 +1,6 @@
+#Author: Abhijit Jaiswal
+# This script abstracts the match details from yaml files and stores it in info2.csv
+
 import yaml
 import csv
 import glob
