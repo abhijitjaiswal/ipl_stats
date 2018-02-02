@@ -10,3 +10,7 @@ shiny
 plotrix
 
 Once you execute the script, you will get an interactive dashboard to analyse IPL Data Currently, there are limited options and combinations.
+
+Once your run the app.R script, it will show the following dashboard which will be interatcive:
+
+![Alt text](Sample_Output/SampleOutput.png?raw=true "IPL Dashboard")
