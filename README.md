@@ -13,4 +13,4 @@ Once you execute the script, you will get an interactive dashboard to analyse IP
 
 Once your run the app.R script, it will show the following dashboard which will be interatcive:
 
-![Alt text](Sample_Output/SampleOutput.png?raw=true "IPL Dashboard")
+![Alt text](../sample_output/SampleOutput.png?raw=true "IPL Dashboard")
