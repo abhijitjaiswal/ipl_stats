@@ -6,8 +6,9 @@ And execute the python scripts to generate csv files. These csv files can be use
 
 You will need RStudio setup and following libraries to execute the R script:
 
-shiny
-plotrix
+```shiny```
+
+```plotrix```
 
 Once you execute the script, you will get an interactive dashboard to analyse IPL Data Currently, there are limited options and combinations.
 
